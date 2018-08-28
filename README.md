@@ -22,9 +22,9 @@ download the file, but this operation could fail for certain OS.
 #### Train Model
 Move inside *CNNModel* directory and run
 
- ```
+```
     $ python train.py
-    ```
+```
 
 If a model already exists and you want to train from there:
 
@@ -38,18 +38,18 @@ If you want to restart from the last checkpoint
  $ python train.py --last True
 ```
 
-####Evaluate Model on Test Samples
+#### Evaluate Model on Test Samples
 Move inside *CNNModel* directory and run
 
-   ```
+```
     $ python model_accuracy_test.py
-    ```
+```
 
 #### Visualize training on tensorboard
 Move inside *CNNModel* directory and run
 
 
-   ```
+```
     $ tensorboard --logdir ./logs
-    ```
+```
 
